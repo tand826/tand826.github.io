@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135169391-8"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-135169391-8');
+        </script>
+
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -20,7 +29,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/takumiando.svg" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#works">Works</a></li>
@@ -44,23 +53,23 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Works</h2>
-                    <h3 class="section-subheading text-muted">The harder you work, the luckier you get.</h3>
+                    <h3 class="section-subheading text-muted">I believe the harder I work, the luckier I get.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+                        <span class="fa-stack fa-4x"><a href="https://github.com/tand826/wsiprocess" target="_blank"><img src="assets/img/wsiprocess.png" class="worksIcons"></a></span>
                         <h4 class="my-3">wsiprocess</h4>
                         <p class="text-muted">Whole Slide Image (WSI) Processing Library for Histopathological / Cytopathological Machine Learning Tasks.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
+                        <span class="fa-stack fa-4x"><a href="https://chrome.google.com/webstore/detail/pubmed-impact-factor-sear/amhcplabblldkpggfncgnemdbpafbfog" target="_blank"><img src="assets/img/pubmedimpactfactor.png" class="worksIcons"></a></span>
                         <h4 class="my-3">PubMed Impact Factor Search</h4>
                         <p class="text-muted">Add search words of journals at PubMed which has the impact factors you specified.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <span class="fa-stack fa-4x"><a href="https://chrome.google.com/webstore/detail/speech-to-text/icgocicggifobehhjlekfcfmkmgnhoik" target="_blank"><img src="assets/img/speech2text.svg" class="worksIcons"></a></span>
+                        <h4 class="my-3">Speech to Text</h4>
+                        <p class="text-muted">Very simple chrome extension just for record your voice and keep them as the text in the history.</p>
                     </div>
                 </div>
             </div>
@@ -165,18 +174,17 @@
         <section class="page-section bg-light" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">History repeats itself.</h3>
+                    <h2 class="section-heading text-uppercase">Projects</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/cmu.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2016</h4>
                                 <h4 class="subheading">Machine Learning Based Metastasis Detection</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Developed a machine Learning based engine for metastasis detection on breast cancer as a joint research with The University of Tokyo.</p></div>
+                            <div class="timeline-body"><p class="text-muted">Machine Learning based classification engine for metastasis detection on the slides of breast cancer as a joint research with The University of Tokyo.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
@@ -217,63 +225,93 @@
                 </ul>
             </div>
         </section>
-        <!-- Team
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section>
         <!-- Clients-->
         <section class="page-section" id="skills">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Skills</h2>
-                    <h3 class="section-subheading text-muted">Excellence is not a skill, it’s an attitude.</h3>
+                    <h3 class="section-subheading text-muted">New technologies always raise my spirits.</h3>
                 </div>
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="skillsTitles">
+                            <i class="fas fa-code fa-2x"></i>
+                            <span class="text-uppercase skillsTitle">Languages</span>
+                        </div>
+                        <div class="skillNames">
+                            <h6 class="text-muted">Python</h6>
+                            <h6 class="text-muted">JavaScript</h6>
+                            <h6 class="text-muted">Shell</h6>
+                            <h6 class="text-muted">HTML5</h6>
+                            <h6 class="text-muted">CSS</h6>
+                            <h6 class="text-muted">C++</h6>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="skillsTitles">
+                            <i class="fas fa-cogs fa-2x"></i>
+                            <span class="text-uppercase skillsTitle">Machine Learning</span>
+                        </div>
+                        <div class="skillNames">
+                            <h6 class="text-muted">PyTorch</h6>
+                            <h6 class="text-muted">Tensorflow</h6>
+                            <h6 class="text-muted">Scikit-Learn</h6>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="skillsTitles">
+                            <i class="far fa-image fa-2x"></i>
+                            <span class="text-uppercase skillsTitle">Image Processing</span>
+                        </div>
+                        <div class="skillNames">
+                            <h6 class="text-muted">OpenSlide</h6>
+                            <h6 class="text-muted">Pyvips</h6>
+                            <h6 class="text-muted">OpenCV</h6>
+                            <h6 class="text-muted">Pillow</h6>
+                            <h6 class="text-muted">Matplotlib</h6>
+                            <h6 class="text-muted">Scikit-Image</h6>
+                            <h6 class="text-muted">SciPy</h6>
+                        </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="skillsTitles">
+                            <i class="fas fa-tools fa-2x"></i>
+                            <span class="text-uppercase skillsTitle">Other Tools</span>
+                        </div>
+                        <div class="skillNames">
+                            <h6 class="text-muted">GitHub / GitLab / Bitbucket</h6>
+                            <h6 class="text-muted">Readthedocs</h6>
+                            <h6 class="text-muted">Microsoft Azure</h6>
+                            <h6 class="text-muted">Heroku</h6>
+                            <h6 class="text-muted">Docker</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="skillsTitles">
+                            <i class="fab fa-js-square fa-2x"></i>
+                            <span class="text-uppercase skillsTitle">Javascript Libraries</span>
+                        </div>
+                        <div class="skillNames">
+                            <h6 class="text-muted">Leaflet</h6>
+                            <h6 class="text-muted">jQuery</h6>
+                            <h6 class="text-muted">Electron</h6>
+                            <h6 class="text-muted">Bootstrap</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 my-3">
+                        <div class="skillsTitles">
+                            <i class="fab fa-python fa-2x"></i>
+                            <span class="text-uppercase skillsTitle">Other Python Libraries</span>
+                        </div>
+                        <div class="skillNames">
+                            <h6 class="text-muted">Flask</h6>
+                            <h6 class="text-muted">ImgAug</h6>
+                            <h6 class="text-muted">Torchvision</h6>
+                            <h6 class="text-muted">NumPy</h6>
+                            <h6 class="text-muted">Pandas</h6>
+                            <h6 class="text-muted">Pytest</h6>
+                            <h6 class="text-muted"></h6>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -283,7 +321,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">No news is good news.</h3>
+                    <h3 class="section-subheading text-muted">You can even ask me for my cat.</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -311,6 +349,10 @@
                     <div class="text-center">
                         <div id="success"></div>
                         <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                        <div class="mail">
+                            <i class="fas fa-envelope-open"></i>
+                            <div class="emailAddress">takumi.ando826@gmail.com</div>
+                        </div>
                     </div>
                 </form>
             </div>
@@ -319,11 +361,11 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Takumi Ando 2020</div>
+                    <div class="col-lg-4 text-lg-left"></div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/tand826"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="https://github.com/tand826/"><i class="fab fa-github"></i></a>
                     </div>
-                    <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a></div>
+                    <div class="col-lg-4 text-lg-right">Copyright © Takumi Ando 2020</div>
                 </div>
             </div>
         </footer>
@@ -366,3 +408,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+

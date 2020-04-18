@@ -10455,3 +10455,39 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/* My additional css */
+.worksIcons {
+  width: 100px
+}
+
+.skillsTitles {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem
+}
+
+.skillsTitle {
+  margin-left: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.skillNames {
+  margin-left: 0.5rem
+}
+
+.mail {
+  display: flex;
+  color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem
+}
+
+.emailAddress {
+  margin-left: 10px;
+  font-size: 0.75rem
+}
