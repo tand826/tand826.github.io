@@ -32,7 +32,7 @@ $(function() {
       } else if(userAgent.indexOf('edge') != -1) {
           //console.log('Edgeをお使いですね');
       } else if(userAgent.indexOf('chrome') != -1) {
-        alert("Sorry, mailto seems not work well with chrome. Copy my email and make message.")
+        //alert("Sorry, mailto seems not work well with chrome. Copy my email and make message.")
         //console.log('Google Chromeをお使いですね');
       } else if(userAgent.indexOf('safari') != -1) {
           //console.log('Safariをお使いですね');
