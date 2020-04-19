@@ -17,12 +17,32 @@ $(function() {
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
-      $this = $("#sendMessageButton");
-      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      // $this = $("#sendMessageButton");
+      // $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
 
       subject = "Contact From GitHub Page - tand826"
-      body = `${name} (${email}) ${message}`
-      location.href = `mailto:takumi.ando826@gmail.com?subject='${subject}'&amp;body='${body}'`
+      body = `${name}(${email})%0D%0A${message}`
+      location.href = `mailto:takumi.ando826@gmail.com?subject=${subject}&body=${body}`
+
+      const userAgent = window.navigator.userAgent.toLowerCase();
+
+      if(userAgent.indexOf('msie') != -1 ||
+              userAgent.indexOf('trident') != -1) {
+          //console.log('Internet Explorerをお使いですね');
+      } else if(userAgent.indexOf('edge') != -1) {
+          //console.log('Edgeをお使いですね');
+      } else if(userAgent.indexOf('chrome') != -1) {
+        alert("Sorry, mailto seems not work well with chrome. Copy my email and make message.")
+        //console.log('Google Chromeをお使いですね');
+      } else if(userAgent.indexOf('safari') != -1) {
+          //console.log('Safariをお使いですね');
+      } else if(userAgent.indexOf('firefox') != -1) {
+          //console.log('FireFoxをお使いですね');
+      } else if(userAgent.indexOf('opera') != -1) {
+          //console.log('Operaをお使いですね');
+      } else {
+          //console.log('そんなブラウザは知らん');
+      }
 
       /*
       $.ajax({
